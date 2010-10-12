@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# run MyBot against all example bots on all maps
+
     for file in example_bots/*Bot.jar
 
     do

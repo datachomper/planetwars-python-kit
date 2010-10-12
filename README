@@ -9,12 +9,11 @@ Requirements:
 * Python 2.5
 * Java 1.6
 
-[1] To run a game against a DualBot on map 5, run
+[1] To run a game against a BullyBot on map 5, run
 
-$ ./dual.sh 5
+$ ./bot.sh BullyBot 5
 
 Take a look at the log: MyBot.log
-
 
 [2] To play all sample bots on all 100 maps, run
 
