@@ -13,7 +13,7 @@ Requirements:
 
 $ ./bot.sh BullyBot 5
 
-Take a look at the log: games.log file.
+Take a look at the logs: MyBot.log, games.log.
 
 [2] To play all sample bots on all 100 maps, run
 

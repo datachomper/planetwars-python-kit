@@ -60,3 +60,17 @@ class Universe2(Universe):
     @property
     def enemies_strongest_planet(self):
         return self.enemies_strongest_planets(1)[0]
+
+    @property
+    def neutral_weakest_planet(self):
+        return self.neutral_weakest_planets(1)[0]
+
+    def neutral_weakest_planets(self, count):
+        return self.weakest_planets(owner=player.NOBODY, count=count)
+
+    @property
+    def neutral_strongest_planet(self):
+        return self.neutral_strongest_planets(1)[0]
+
+    def neutral_strongest_planets(self, count):
+        return self.strongest_planets(owner=player.NOBODY, count=count)
