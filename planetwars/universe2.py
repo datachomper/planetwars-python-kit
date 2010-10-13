@@ -1,8 +1,4 @@
-# vim:ts=4:shiftwidth=4:et
-
 from planetwars.universe import Universe, player
-from planetwars.player import Player
-from copy import deepcopy, copy
 
 class Universe2(Universe):
     def weakest_planets(self, owner, count=1):

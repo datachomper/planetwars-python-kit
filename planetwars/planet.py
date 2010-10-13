@@ -1,4 +1,3 @@
-# vim:ts=4:shiftwidth=4:et
 from planetwars.player import PLAYER_MAP
 from planetwars.util import Point, TypedSetBase
 from math import ceil, sqrt

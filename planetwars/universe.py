@@ -1,5 +1,3 @@
-# vim:ts=4:shiftwidth=4:et:
-
 from planetwars.util import ParsingException, _make_id, SetDict
 from planetwars.fleet import Fleet, Fleets
 from planetwars.planet import Planet, Planets
