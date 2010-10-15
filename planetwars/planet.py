@@ -64,6 +64,5 @@ class Planet(object):
                 return self.universe.send_fleet(self, target, ship_count)
         return None
 
-
 class Planets(TypedSetBase):
     accepts = (Planet, )

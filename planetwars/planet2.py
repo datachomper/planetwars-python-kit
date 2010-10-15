@@ -4,6 +4,7 @@ from copy import copy
 import player
 
 class Planet2(Planet):
+
     def in_future(self, turns=1):
         """Calculates state of planet in `turns' turns."""
         planet = copy(self)
@@ -46,3 +47,7 @@ class Planet2(Planet):
                     planet.ship_count=winner['ships'] - second['ships']
 
         return planet
+
+    def nearest(self, others):
+        """Return nearest planet from `others' (list or tuple)."""
+        return sorted(others, cmp=lambda x, y : self.distance(x) - self.distance(y))[0]

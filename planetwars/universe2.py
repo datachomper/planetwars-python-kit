@@ -1,6 +1,7 @@
 from planetwars.universe import Universe, player
 
 class Universe2(Universe):
+
     def weakest_planets(self, owner, count=1):
         """
         Returns a set of `count' planets with the smallest ship_count.
