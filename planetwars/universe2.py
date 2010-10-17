@@ -75,3 +75,17 @@ class Universe2(Universe):
 
     def neutral_strongest_planets(self, count):
         return self.strongest_planets(owner=player.NOBODY, count=count)
+
+    def production(self, owner):
+        prod = 0
+        for p in self.find_planets(owner=owner):
+            prod += p.growth_rate
+        return prod
+
+    def count_ships(self, owner):
+        count = 0
+        for p in self.find_planets(owner=owner):
+            count += p.ship_count
+        for f in self.find_fleets(owner=owner):
+            count += f.ship_count
+        return count
