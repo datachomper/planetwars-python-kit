@@ -89,3 +89,4 @@ class Universe2(Universe):
         for f in self.find_fleets(owner=owner):
             count += f.ship_count
         return count
+

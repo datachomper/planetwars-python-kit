@@ -9,9 +9,9 @@ Requirements:
 * Python 2.5
 * Java 1.6
 
-[1] To run a game against a BullyBot on map 5, run
+[1] To run a game against BullyBot on map 5, run
 
-$ ./bot.sh BullyBot 5
+$ ./bot.sh Bully 5
 
 Take a look at the logs: MyBot.log, games.log.
 
@@ -21,7 +21,11 @@ $ ./batch.sh
 
 This will take a few minutes to run..
 
-[3] To play other people's bots in REAL TIME without having to submit
+[3] To play against a DualBot on all maps, run
+
+$ ./batch.sh Dual
+
+[4] To play other people's bots in REAL TIME without having to submit
 your code to the contest server, compile TCP.java run
 
 $ javac TCP.java 
